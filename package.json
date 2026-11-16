@@ -1,0 +1,24 @@
+{
+  "name": "remotion-cartoon-presenter",
+  "version": "1.0.0",
+  "description": "A cartoon presenter drawn in code for Remotion, with lip-sync from word timings, 6 gestures and 4 looks.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Example out/example.mp4",
+    "sheet": "remotion still CharacterSheet out/character-sheet.png --frame=20",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.529",
+    "@remotion/google-fonts": "4.0.529",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}
